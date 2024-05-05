@@ -2,12 +2,12 @@ import { TeslaIcon } from "@/icons/icons";
 
 export function Header () {
   return (
-    <header className="w-full py-3 px-10 flex items-center justify-between fixed top-0">
-      <div className="flex flex-grow basis-0">
+    <header className="w-full py-3 px-10 flex items-center justify-between fixed top-0 z-40">
+      <div className="flex flex-grow basis-0 text-white">
         <TeslaIcon />
       </div>
       <nav>
-        <ul className="flex text-sm [&>li>a]:text-gray-900 [&>li>a]:font-medium [&>li>a]:px-4 [&>li>a]:py-2">
+        <ul className="flex text-sm [&>li>a]:text-white [&>li>a]:font-medium [&>li>a]:px-4 [&>li>a]:py-2">
           <li><a href="#">Model S</a></li>
           <li><a href="#">Model 3</a></li>
           <li><a href="#">Model X</a></li>
@@ -17,7 +17,7 @@ export function Header () {
         </ul>
       </nav>
       <nav className="flex flex-grow basis-0 justify-end">
-        <ul className="flex [&>li>a]:text-gray-900 [&>li>a]:font-medium text-sm [&>li>a]:px-4 [&>li>a]:py-2">
+        <ul className="flex [&>li>a]:text-white [&>li>a]:font-medium text-sm [&>li>a]:px-4 [&>li>a]:py-2">
           <li><a href="">Soporte</a></li>
           <li><a href="">Tienda</a></li>
           <li><a href="">Cuenta</a></li>
