@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Header } from "@/components/header";
 
 export const metadata: Metadata = {
   title: "Tesla | El coche de tus sueños",
@@ -14,6 +15,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body>
+        <Header />
         {children}
         </body>
     </html>
