@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export function ModelYSection () {
+export function ModelSSection () {
   return (
     <section 
       className="landing-section h-screen w-screen text-center relative"
@@ -8,9 +8,9 @@ export function ModelYSection () {
     >
       <div className="flex flex-col h-full z-30 relative">
         <header>
-          <h1 className="text-black pt-40 text-[40px] font-medium">Model Y</h1>
-          <p className="text-black text-[20px] font-medium">From $31,490¹</p>
-          <p className="text-black/60 text-sm">After Federal Tax Credit & Est. Gas Savings</p>
+          <h1 className="text-black pt-40 text-[40px] font-medium">Model S</h1>
+          <p className="text-black text-[20px] font-medium">From $66,490⁴</p>
+          <p className="text-black/60 text-sm">After Est. Gas Savings</p>
         </header>
       
         <footer className="flex flex-col flex-grow justify-end pb-20">
@@ -23,10 +23,11 @@ export function ModelYSection () {
 
       <div className="absolute top-0 bottom-0 left-0 right-0 z-10">
         <Image 
-          src="/model-Y.avif"
-          alt="Model Y"
+          src="/model-S.avif"
+          alt="Model S"
           width={2880}
           height={2400}
+          priority
           className="h-full w-full object-cover"
         />
       </div>

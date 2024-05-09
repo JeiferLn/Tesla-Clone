@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export function ModelYSection () {
+export function Powerwall () {
   return (
     <section 
       className="landing-section h-screen w-screen text-center relative"
@@ -8,9 +8,7 @@ export function ModelYSection () {
     >
       <div className="flex flex-col h-full z-30 relative">
         <header>
-          <h1 className="text-black pt-40 text-[40px] font-medium">Model Y</h1>
-          <p className="text-black text-[20px] font-medium">From $31,490¹</p>
-          <p className="text-black/60 text-sm">After Federal Tax Credit & Est. Gas Savings</p>
+          <h1 className="text-black pt-40 text-[40px] font-medium">Powerwall</h1>
         </header>
       
         <footer className="flex flex-col flex-grow justify-end pb-20">
@@ -23,8 +21,8 @@ export function ModelYSection () {
 
       <div className="absolute top-0 bottom-0 left-0 right-0 z-10">
         <Image 
-          src="/model-Y.avif"
-          alt="Model Y"
+          src="/powerwall.avif" 
+          alt="Model 3"
           width={2880}
           height={2400}
           className="h-full w-full object-cover"
